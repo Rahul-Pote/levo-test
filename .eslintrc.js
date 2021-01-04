@@ -24,7 +24,7 @@ module.exports = {
     'no-var': 'error',
     'no-undef': 'error',
     'prefer-destructuring': 'warn',
-    /** React Standard (https://github.com/yannickcr/eslint-plugin-react)*/
+    /** React Standard (https://github.com/yannickcr/eslint-plugin-react) */
     'react/jsx-key': [
       'warn',
       {
@@ -57,5 +57,7 @@ module.exports = {
     'prettier/prettier': 'warn',
     // allow jsx syntax in js files
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'react/jsx-props-no-spreading': 'off',
   },
 };
