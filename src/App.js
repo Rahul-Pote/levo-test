@@ -1,4 +1,4 @@
-import "./scss/index.scss";
+import "./style/index.scss";
 
 function App() {
   return <div className="App">Hello Word!!!</div>;
