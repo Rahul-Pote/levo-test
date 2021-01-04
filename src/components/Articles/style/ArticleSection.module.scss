@@ -1,0 +1,39 @@
+@import '../../../style/constants/colors';
+
+$className: 'relatedArticle';
+
+.#{$className} {
+  &Title {
+    color: map-get($color-map, 'illusion');
+  }
+
+  &ViewMore {
+    border-color: map-get($color-map, 'illusion');
+    color: map-get($color-map, 'illusion');
+
+    &:hover {
+      color: map-get($color-map, 'white');
+      background-color: map-get($color-map, 'illusion');
+    }
+  }
+
+  &Card {
+    &:nth-child(3n + 1) {
+      > div {
+        background-color: map-get($color-map, 'carrot-orange');
+      }
+    }
+
+    &:nth-child(3n + 2) {
+      > div {
+        background-color: map-get($color-map, 'summer-sky');
+      }
+    }
+
+    &:nth-child(3n + 3) {
+      > div {
+        background-color: map-get($color-map, 'violet-blue');
+      }
+    }
+  }
+}

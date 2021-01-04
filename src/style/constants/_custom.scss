@@ -1,0 +1,7 @@
+@import 'colors';
+
+$theme-colors: (
+  'primary': map-get($color-map, 'carrot-orange'),
+  'secondary': map-get($color-map, 'summer-sky'),
+  'success': map-get($color-map, 'violet-blue'),
+);
