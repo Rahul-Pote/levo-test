@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/levo-test/static/css/main.fb171735.chunk.css",
+    "main.js": "/levo-test/static/js/main.a1e0f7ce.chunk.js",
+    "main.js.map": "/levo-test/static/js/main.a1e0f7ce.chunk.js.map",
+    "runtime-main.js": "/levo-test/static/js/runtime-main.997a55be.js",
+    "runtime-main.js.map": "/levo-test/static/js/runtime-main.997a55be.js.map",
+    "static/js/2.767117c6.chunk.js": "/levo-test/static/js/2.767117c6.chunk.js",
+    "static/js/2.767117c6.chunk.js.map": "/levo-test/static/js/2.767117c6.chunk.js.map",
+    "index.html": "/levo-test/index.html",
+    "static/css/main.fb171735.chunk.css.map": "/levo-test/static/css/main.fb171735.chunk.css.map",
+    "static/js/2.767117c6.chunk.js.LICENSE.txt": "/levo-test/static/js/2.767117c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.997a55be.js",
+    "static/js/2.767117c6.chunk.js",
+    "static/css/main.fb171735.chunk.css",
+    "static/js/main.a1e0f7ce.chunk.js"
+  ]
+}
