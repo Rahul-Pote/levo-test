@@ -22,6 +22,21 @@
     "lint": "eslint src/**/*.{js,jsx}",
     "lint:fix": "eslint src/**/*.{js,jsx} --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+        "git add"
+    ],
+    "*.scss": [
+      "stylelint --cache --fix",
+        "git add"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,6 +63,8 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.22.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
