@@ -31,14 +31,8 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --cache --fix",
-      "git add"
-    ],
-    "*.scss": [
-      "stylelint --cache --fix",
-      "git add"
-    ]
+    "*.js": "eslint --cache --fix",
+    "*.scss": "stylelint --cache --fix"
   },
   "eslintConfig": {
     "extends": [

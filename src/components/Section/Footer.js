@@ -14,7 +14,7 @@ const defaultProps = {
 };
 
 const Footer = ({ children, className, ...otherProps }) => (
-  <footer {...otherProps} className={clsx('text-center', className)}>
+  <footer {...otherProps} className={clsx('text-center mt-2', className)}>
     {children}
   </footer>
 );

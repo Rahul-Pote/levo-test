@@ -27,8 +27,8 @@ const Head = ({
   ...otherProps
 }) => (
   <header {...otherProps}>
-    <h1 className={clsx('h3', titleClassName)}>{title}</h1>
-    <p className={clsx('', descClassName)}>{description}</p>
+    <h1 className={clsx('h3 text-capitalize', titleClassName)}>{title}</h1>
+    <p className={clsx('mt-3', descClassName)}>{description}</p>
   </header>
 );
 

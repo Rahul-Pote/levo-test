@@ -13,7 +13,7 @@ const defaultProps = {
 };
 
 const Body = ({ children, className, ...otherProps }) => (
-  <div {...otherProps} className={className}>
+  <div {...otherProps} className={`${className} mt-5`}>
     {children}
   </div>
 );
